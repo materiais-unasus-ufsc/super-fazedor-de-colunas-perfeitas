@@ -20,6 +20,7 @@ textarea {
 
   font-size: 18px !important;
   background-color: #f7f7f7;
+  text-align: justify;
   hyphens: auto;
 }
 
