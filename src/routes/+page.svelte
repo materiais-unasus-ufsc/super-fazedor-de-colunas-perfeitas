@@ -62,7 +62,7 @@
 	<div class="spacer"></div>
 	<div class="separator"></div>
 	<footer>
-		Made by <a data-sveltekit-reload href="github.com/oasjs" target="_blank">oasjs</a>
+		Made by oasjs
 	</footer>
 </main>
 
