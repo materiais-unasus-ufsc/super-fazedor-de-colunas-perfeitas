@@ -6,7 +6,7 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-        "deploy": "npm build && npx gh-pages -d build -t true",
+        "deploy": "vite build && gh-pages -d build -t true",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write ."
 	},
