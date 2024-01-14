@@ -15,7 +15,7 @@
 			textarea.style.padding = '0';
 		} else {
 			textarea.style.padding = '1rem';
-			textarea.style.height = '100px';
+			textarea.style.height = '150px';
 		}
 	}
 </script>
@@ -36,7 +36,7 @@
 <style lang="scss">
 	textarea {
 		width: 100%;
-		height: 100px;
+		height: 150px;
 		margin: 1rem 0;
 		padding: 1rem;
 
@@ -47,8 +47,15 @@
 		resize: none;
 		overflow: hidden;
 
-		background-color: #f7f7f7;
+		background-color: #fafafa;
 		text-align: justify;
 		hyphens: auto;
+
+		&:first-child {
+			margin-top: 0;
+		}
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}
 </style>

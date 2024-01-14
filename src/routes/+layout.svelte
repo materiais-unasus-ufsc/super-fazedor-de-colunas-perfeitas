@@ -5,17 +5,17 @@
 
 <style lang="scss" global>
 	// Custom.scss
-  // Option B: Include parts of Bootstrap
+	// Option B: Include parts of Bootstrap
 
-  // Required
-  @import "../node_modules/bootstrap/scss/functions";
-  @import "../node_modules/bootstrap/scss/variables";
-  @import "../node_modules/bootstrap/scss/mixins";
+	// Required
+	@import '../node_modules/bootstrap/scss/functions';
+	@import '../node_modules/bootstrap/scss/variables';
+	@import '../node_modules/bootstrap/scss/mixins';
 
-  // Optional
-  @import "../node_modules/bootstrap/scss/reboot";
-  @import "../node_modules/bootstrap/scss/type";
-  @import "../node_modules/bootstrap/scss/grid";
-  @import "../node_modules/bootstrap/scss/forms";
-
+	// Optional
+	@import '../node_modules/bootstrap/scss/reboot';
+	@import '../node_modules/bootstrap/scss/type';
+	@import '../node_modules/bootstrap/scss/grid';
+	@import '../node_modules/bootstrap/scss/forms';
+	@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css');
 </style>
