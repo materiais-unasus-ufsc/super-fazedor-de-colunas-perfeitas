@@ -62,7 +62,7 @@
 	<div class="spacer"></div>
 	<div class="separator"></div>
 	<footer>
-		Made by oasjs
+		Made by <a href="https://github.com/oasjs" target="_blank">oasjs</a>
 	</footer>
 </main>
 
