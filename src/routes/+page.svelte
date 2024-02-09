@@ -4,6 +4,11 @@
 	let lineHeight = '31px';
 	let fontFamily = 'Roboto';
 	$: finalFontFamily = fontFamily + ', sans-serif';
+
+  let textAreaValue1 = '';
+  let textAreaValue2 = '';
+  let textAreaValue3 = '';
+  let textAreaValue4 = '';
 </script>
 
 <main
@@ -48,17 +53,57 @@
 	<div class="spacer"></div>
 
 	<div>
-		<TextArea {fontSize} {lineHeight}></TextArea>
+		<TextArea {fontSize} {lineHeight} bind:value={textAreaValue1}></TextArea>
 		<div class="row">
 			<div class="col-md-6">
-				<TextArea {fontSize} {lineHeight}></TextArea>
+				<TextArea {fontSize} {lineHeight} bind:value={textAreaValue2}></TextArea>
 			</div>
 			<div class="col-md-6">
-				<TextArea {fontSize} {lineHeight}></TextArea>
+				<TextArea {fontSize} {lineHeight} bind:value={textAreaValue3}></TextArea>
 			</div>
 		</div>
-		<TextArea {fontSize} {lineHeight}></TextArea>
+		<TextArea {fontSize} {lineHeight} bind:value={textAreaValue4}></TextArea>
 	</div>
+
+	<!-- <div class="spacer"></div>
+
+  <div class="result">
+    <p 
+      style="
+        font-family: {finalFontFamily};
+        font-size: {fontSize};
+        line-height: {lineHeight};
+        "
+      >{textAreaValue1}</p>
+    <div class="row">
+      <div class="col-md-6">
+        <p
+          style="
+            font-family: {finalFontFamily};
+            font-size: {fontSize};
+            line-height: {lineHeight};
+            "
+        >{textAreaValue2}</p>
+      </div>
+      <div class="col-md-6">
+        <p
+          style="
+          font-family: {finalFontFamily};
+          font-size: {fontSize};
+          line-height: {lineHeight};
+          "
+        >{textAreaValue3}</p>
+      </div>
+    </div>
+    <p
+      style="
+        font-family: {finalFontFamily};
+        font-size: {fontSize};
+        line-height: {lineHeight};
+        "
+      >{textAreaValue4}</p>
+  </div> -->
+
 	<div class="spacer"></div>
 	<div class="separator"></div>
 	<footer>
@@ -99,6 +144,11 @@
 		.spacer {
 			height: 3rem;
 		}
+
+    .result {
+      text-align: justify;
+      hyphens: auto;
+    }
 	}
 
 	.separator {

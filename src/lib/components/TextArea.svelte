@@ -3,7 +3,7 @@
 
 	export let fontSize;
 	export let lineHeight;
-	let value = '';
+	export let value = '';
 
 	let textarea;
 	async function textAreaAdjust() {
